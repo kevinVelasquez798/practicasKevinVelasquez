@@ -1,0 +1,28 @@
+.tarjeta{
+    font-family:'Times New Roman', Times, serif;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: darkblue;
+    border-width: 2px;
+    color: white;
+
+    width: 50%;
+    margin: 25px auto 25px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+h1{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+img{
+    width: 75%;
+}
+
+
