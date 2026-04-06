@@ -8,14 +8,14 @@ box-sizing: border-box;
 
 body {
 font-family: 'Inter', sans-serif;
-background-color: beige;
+background-image: url(../img/street.jpg);
 background-size: contain;
-color: black;
+color: #333;
 line-height: 1.6;
 }
 
 header {
-background-color: firebrick;
+background-color: #2b270b81;
 color: #fff;
 padding: 10px;
 position: sticky; 
@@ -25,14 +25,6 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: space-evenly;
-}
-
-nav a{
-    color: white;
-}
-
-a{
-    color: firebrick;
 }
 
 .titulo {
@@ -72,23 +64,19 @@ margin: auto;
 section {
 margin: 40px 0; 
 padding: 20px;
-background-color: #fffffd;
+background-color: #ffffffd5;
 border-radius: 10px;
 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-#sec1, #sec2, #sec3, #sec4, #sec5{
+#s1, #s2, #s3, #s4, #s5{
 margin-bottom: 15px;
-color: firebrick;
+color: #584343;
 text-align:center;
 }
 
-h3{
-    color: firebrick;
-}
-
 .imgpeq {
-border: solid firebrick;
+border: solid white 8px;
 margin: 35px 0;
 float: right; 
 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -107,12 +95,12 @@ width: 100%;
 border-collapse: collapse;
 }
 .ficha th, .ficha td {
-border: 1px solid black;
+border: 1px solid #747474;
 padding: 10px;
 }
 .ficha th {
-background-color: beige;
-color: black;
+background-color: #5e5a4b;
+color: white;
 }
 
 .centrado{
@@ -128,19 +116,19 @@ input {
 padding: 8px;
 width: 100%;
 max-width: 400px;
-border: 1px solid black;
+border: 1px solid #ccc;
 border-radius: 5px;
 }
 
 input[type="submit"] {
-background-color: firebrick;
+background-color: #7e724b;
 color: white;
 border: none;
 cursor: pointer;
 margin-top: 10px;
 }
 input[type="submit"]:hover {
-background-color: firebrick;
+background-color: #4b3d0c;
 }
 
 .galeria {
@@ -172,7 +160,7 @@ transform: scale(1.1);
 footer{
 text-align:center;
 padding: 20px;
-background-color: firebrick;
+background-color: #000;
 color: white;
 margin-top: 40px;
 }
